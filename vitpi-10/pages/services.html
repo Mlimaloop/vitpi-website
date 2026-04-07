@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — Vitpi Wealth Management</title>
+  <meta name="description" content="Vitpi's core services: passive income creation, wealth management, pension transfers and portfolio management for HNW individuals in Dubai and globally.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .fade-in.visible { opacity: 1; transform: none; }
+    .service-detail { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; padding: 6rem 4rem; }
+    .service-detail:nth-child(even) { background: white; }
+    .service-detail:nth-child(odd) { background: var(--warm-white); }
+    .service-detail.reverse { direction: rtl; }
+    .service-detail.reverse > * { direction: ltr; }
+    .service-num-large { font-family: 'Playfair Display', serif; font-size: 6rem; font-weight: 700; color: var(--vitpi-red); opacity: 0.12; line-height: 1; margin-bottom: -1rem; }
+    .service-detail-title { font-family: 'Playfair Display', serif; font-size: 2.25rem; font-weight: 700; color: var(--dark); margin-bottom: 1.25rem; letter-spacing: -0.5px; line-height: 1.2; }
+    .service-detail-body { font-size: 15px; color: var(--mid); line-height: 1.85; margin-bottom: 1.5rem; }
+    .service-feature { display: flex; gap: 12px; margin-bottom: 0.75rem; align-items: flex-start; }
+    .service-feature-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--vitpi-red); flex-shrink: 0; margin-top: 8px; }
+    .service-feature-text { font-size: 14px; color: var(--dark); line-height: 1.6; }
+    .service-visual { background: var(--dark); border-radius: 8px; padding: 3.5rem; min-height: 360px; display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden; }
+    .service-visual-icon { font-family: 'Playfair Display', serif; font-size: 8rem; color: rgba(255,255,255,0.04); font-weight: 700; position: absolute; bottom: 1rem; right: 2rem; line-height: 1; }
+    .service-visual-tag { display: inline-block; font-size: 10px; letter-spacing: 0.12em; color: var(--vitpi-red); font-weight: 500; text-transform: uppercase; background: rgba(232,71,42,0.1); padding: 4px 12px; border-radius: 100px; margin-bottom: 1.5rem; }
+    .service-visual-headline { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: white; font-weight: 500; line-height: 1.4; margin-bottom: 2rem; }
+    .service-visual-stat { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 700; color: white; line-height: 1; }
+    .service-visual-stat-label { font-size: 13px; color: rgba(255,255,255,0.4); margin-top: 0.4rem; }
+    @media(max-width:900px) { .service-detail { grid-template-columns: 1fr; gap: 2.5rem; padding: 4rem 1.5rem; } .service-detail.reverse { direction: ltr; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">
+    <div class="nav-logo-mark">V</div>
+    <span class="nav-logo-text">Vitpi</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="testimonials.html">Clients</a></li>
+    <li><a href="blog.html">Insights</a></li>
+    <li><a href="contact.html" class="nav-cta">Get in Touch</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="page-hero">
+  <p class="section-eyebrow">Services</p>
+  <h1 class="section-title light" style="font-size:clamp(2.5rem,5vw,4rem); max-width:700px; margin:0 auto 1rem;">Four pillars. One philosophy.</h1>
+  <p style="color:rgba(255,255,255,0.5); font-size:17px; font-weight:300; max-width:500px; margin:0 auto;">Independent advice. No product sales. No hidden incentives. Just strategy built entirely around your goals.</p>
+</div>
+
+<!-- SERVICE 01 -->
+<div class="service-detail fade-in">
+  <div>
+    <div class="service-num-large">01</div>
+    <h2 class="service-detail-title">Passive Income Creation</h2>
+    <p class="service-detail-body">The goal isn't to work forever. It's to build financial infrastructure that generates income whether you're at your desk or on a mountain. We design and implement income strategies that are robust, diversified and structured to grow over time.</p>
+    <p class="service-detail-body">This is not a product sale. It's an architecture exercise — understanding your current position, your risk appetite, your tax situation and your timeline, then building something that actually delivers.</p>
+    <div style="margin-top:1.5rem;">
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Income-generating investment portfolios</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Dividend and fixed income strategies</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Structured products and alternatives</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Tax-efficient income structuring</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Regular review and rebalancing</div></div>
+    </div>
+  </div>
+  <div class="service-visual">
+    <div class="service-visual-tag">Passive Income</div>
+    <div class="service-visual-headline">"Money that works while you don't."</div>
+    <div>
+      <div class="service-visual-stat">28</div>
+      <div class="service-visual-stat-label">Years building income strategies</div>
+    </div>
+    <div class="service-visual-icon">PI</div>
+  </div>
+</div>
+
+<!-- SERVICE 02 -->
+<div class="service-detail reverse fade-in">
+  <div>
+    <div class="service-num-large">02</div>
+    <h2 class="service-detail-title">Wealth Management</h2>
+    <p class="service-detail-body">Comprehensive, long-term wealth strategy isn't about picking the right stocks. It's about understanding the whole picture — your assets, your liabilities, your family, your ambitions and the world your money will need to navigate.</p>
+    <p class="service-detail-body">We work with HNW individuals and entrepreneurs whose financial lives have genuine complexity. Cross-border exposure, business assets, multiple currencies, succession considerations — these are our natural habitat.</p>
+    <div style="margin-top:1.5rem;">
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Comprehensive financial planning</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Cross-border asset management</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Risk profiling and asset allocation</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Multi-currency structuring</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Estate and succession planning</div></div>
+    </div>
+  </div>
+  <div class="service-visual">
+    <div class="service-visual-tag">Wealth Management</div>
+    <div class="service-visual-headline">"The whole picture. Not just the portfolio."</div>
+    <div>
+      <div class="service-visual-stat">HNW</div>
+      <div class="service-visual-stat-label">Specialist in high-net-worth advisory</div>
+    </div>
+    <div class="service-visual-icon">WM</div>
+  </div>
+</div>
+
+<!-- SERVICE 03 -->
+<div class="service-detail fade-in">
+  <div>
+    <div class="service-num-large">03</div>
+    <h2 class="service-detail-title">Pension Transfers &amp; Planning</h2>
+    <p class="service-detail-body">Pension decisions are among the most consequential you'll make. Get them wrong and the impact can span decades. We navigate the complexity of UK and international pension structures with precision — particularly for expats and internationally mobile professionals.</p>
+    <p class="service-detail-body">Whether you're considering a QROPS transfer, managing a SIPP from abroad, or navigating a defined benefit scheme, we bring the experience and the patience that these decisions demand.</p>
+    <div style="margin-top:1.5rem;">
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">QROPS and international pension transfers</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">SIPP management for expats</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Defined benefit scheme analysis</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Retirement income planning</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Cross-border tax considerations</div></div>
+    </div>
+  </div>
+  <div class="service-visual">
+    <div class="service-visual-tag">Pensions</div>
+    <div class="service-visual-headline">"Decisions that shape decades deserve the right advisor."</div>
+    <div>
+      <div class="service-visual-stat">QROPS</div>
+      <div class="service-visual-stat-label">Pension transfer specialists</div>
+    </div>
+    <div class="service-visual-icon">PE</div>
+  </div>
+</div>
+
+<!-- SERVICE 04 -->
+<div class="service-detail reverse fade-in">
+  <div>
+    <div class="service-num-large">04</div>
+    <h2 class="service-detail-title">Portfolio Management</h2>
+    <p class="service-detail-body">A portfolio is not a set-and-forget exercise. Markets evolve, circumstances change, and opportunities emerge. We provide ongoing, active oversight of your investment portfolio — with transparent reporting, regular reviews and clear rationale behind every decision.</p>
+    <p class="service-detail-body">Both active and passive strategies are available, built around your risk profile and objectives. No house view. No institutional bias. Just strategy built around you.</p>
+    <div style="margin-top:1.5rem;">
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Bespoke portfolio construction</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Active and passive management strategies</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Regular performance reporting</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">Ongoing rebalancing and optimisation</div></div>
+      <div class="service-feature"><div class="service-feature-dot"></div><div class="service-feature-text">ESG-aligned options available</div></div>
+    </div>
+  </div>
+  <div class="service-visual">
+    <div class="service-visual-tag">Portfolio Management</div>
+    <div class="service-visual-headline">"Strategy with no hidden agenda."</div>
+    <div>
+      <div class="service-visual-stat">100%</div>
+      <div class="service-visual-stat-label">Independent. Unconflicted. Yours.</div>
+    </div>
+    <div class="service-visual-icon">PM</div>
+  </div>
+</div>
+
+<section style="background:var(--vitpi-red); padding:5rem 4rem; text-align:center;" class="fade-in">
+  <h2 style="font-family:'Playfair Display',serif; font-size:clamp(2rem,3.5vw,3rem); color:white; font-weight:700; margin-bottom:1rem; letter-spacing:-0.5px;">Not sure which service fits?</h2>
+  <p style="color:rgba(255,255,255,0.8); font-size:17px; margin-bottom:2.5rem; font-weight:300;">That's exactly what a first conversation is for. No pressure, no commitment.</p>
+  <a href="contact.html" style="background:white; color:var(--vitpi-red); padding:1rem 2.5rem; border-radius:4px; text-decoration:none; font-weight:500; font-size:16px; display:inline-block;">Book a consultation</a>
+</section>
+
+<footer>
+  <div class="footer-copy">&copy; 2025 Vitpi. All rights reserved. · vitpi.net</div>
+  <ul class="footer-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="blog.html">Insights</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

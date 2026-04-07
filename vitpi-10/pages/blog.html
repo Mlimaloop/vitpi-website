@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insights — Vitpi Wealth Management</title>
+  <meta name="description" content="Wealth management insights, passive income strategies and financial thinking from Graham Noble at Vitpi.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .fade-in.visible { opacity: 1; transform: none; }
+    .filter-bar { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 3rem; }
+    .filter-btn { font-size: 12px; padding: 0.5rem 1.2rem; border-radius: 100px; border: 1px solid var(--light-border); background: white; color: var(--mid); cursor: pointer; transition: all 0.2s; font-family: 'DM Sans', sans-serif; font-weight: 400; }
+    .filter-btn:hover, .filter-btn.active { background: var(--vitpi-red); color: white; border-color: var(--vitpi-red); }
+    .blog-hero-card { background: var(--dark); border-radius: 8px; padding: 4rem; margin-bottom: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; position: relative; overflow: hidden; }
+    .blog-hero-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--vitpi-red); }
+    .blog-hero-label { font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--vitpi-red); font-weight: 500; margin-bottom: 1rem; }
+    .blog-hero-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: white; line-height: 1.25; margin-bottom: 1rem; letter-spacing: -0.5px; }
+    .blog-hero-excerpt { font-size: 15px; color: rgba(255,255,255,0.5); line-height: 1.75; margin-bottom: 2rem; }
+    .blog-hero-visual { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); border-radius: 8px; padding: 3rem; text-align: center; }
+    .blog-hero-icon { font-family: 'Playfair Display', serif; font-size: 6rem; color: rgba(255,255,255,0.08); font-weight: 700; }
+    @media(max-width:900px) { .blog-hero-card { grid-template-columns: 1fr; } .blog-hero-visual { display: none; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">
+    <div class="nav-logo-mark">V</div>
+    <span class="nav-logo-text">Vitpi</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="testimonials.html">Clients</a></li>
+    <li><a href="blog.html">Insights</a></li>
+    <li><a href="contact.html" class="nav-cta">Get in Touch</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="page-hero">
+  <p class="section-eyebrow">Insights</p>
+  <h1 class="section-title light" style="font-size:clamp(2.5rem,5vw,4rem); max-width:700px; margin:0 auto 1rem;">Thinking out loud about wealth.</h1>
+  <p style="color:rgba(255,255,255,0.5); font-size:17px; font-weight:300;">Practical perspectives on passive income, wealth management and financial strategy.</p>
+</div>
+
+<section style="background:var(--warm-white);" class="fade-in">
+
+  <div class="filter-bar">
+    <button class="filter-btn active">All</button>
+    <button class="filter-btn">Passive Income</button>
+    <button class="filter-btn">Pensions</button>
+    <button class="filter-btn">Wealth Strategy</button>
+    <button class="filter-btn">Expats</button>
+    <button class="filter-btn">Markets</button>
+  </div>
+
+  <div class="blog-hero-card fade-in">
+    <div>
+      <div class="blog-hero-label">Featured · Passive Income</div>
+      <h2 class="blog-hero-title">Why passive income isn't passive — and why that's actually good news</h2>
+      <p class="blog-hero-excerpt">The phrase is everywhere. The reality is more nuanced — and far more achievable — than most people assume. After 28 years of building income strategies for clients, here's what I actually know.</p>
+      <a href="contact.html" class="btn-primary">Read the article</a>
+    </div>
+    <div class="blog-hero-visual">
+      <div class="blog-hero-icon">PI</div>
+      <p style="color:rgba(255,255,255,0.2); font-size:12px; margin-top:1rem; letter-spacing:0.08em; text-transform:uppercase;">March 2025</p>
+    </div>
+  </div>
+
+  <div class="blog-grid" style="margin-top:2rem;">
+    <a href="#" class="blog-card">
+      <div class="blog-card-thumb">
+        <div class="blog-card-thumb-label">EX</div>
+        <span class="blog-card-tag">Expats</span>
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">February 2025</div>
+        <h3 class="blog-card-title">UK pension transfers for expats: what you actually need to know in 2025</h3>
+        <p class="blog-card-excerpt">The rules have evolved. If you left the UK more than two years ago, your pension strategy probably needs a serious review.</p>
+      </div>
+    </a>
+    <a href="#" class="blog-card">
+      <div class="blog-card-thumb">
+        <div class="blog-card-thumb-label">WS</div>
+        <span class="blog-card-tag">Wealth Strategy</span>
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">January 2025</div>
+        <h3 class="blog-card-title">The difference between growing wealth and protecting it — and why you need both</h3>
+        <p class="blog-card-excerpt">Most advisors pick a lane. The right approach — and the one that actually works over time — is knowing when to switch.</p>
+      </div>
+    </a>
+    <a href="#" class="blog-card">
+      <div class="blog-card-thumb">
+        <div class="blog-card-thumb-label">MK</div>
+        <span class="blog-card-tag">Markets</span>
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">December 2024</div>
+        <h3 class="blog-card-title">How to think about market volatility when you're building for the long term</h3>
+        <p class="blog-card-excerpt">The noise gets louder. The right response rarely changes. Here's the framework I've used with clients for nearly three decades.</p>
+      </div>
+    </a>
+    <a href="#" class="blog-card">
+      <div class="blog-card-thumb">
+        <div class="blog-card-thumb-label">PI</div>
+        <span class="blog-card-tag">Passive Income</span>
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">November 2024</div>
+        <h3 class="blog-card-title">Five income streams worth building in 2025 — and two that aren't</h3>
+        <p class="blog-card-excerpt">Not all income is created equal. A practical guide to what's worth your attention and what's worth ignoring.</p>
+      </div>
+    </a>
+    <a href="#" class="blog-card">
+      <div class="blog-card-thumb">
+        <div class="blog-card-thumb-label">PE</div>
+        <span class="blog-card-tag">Pensions</span>
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">October 2024</div>
+        <h3 class="blog-card-title">QROPS: the questions to ask before you transfer</h3>
+        <p class="blog-card-excerpt">A QROPS can be the right move. It can also be an expensive mistake. Here's how to tell the difference.</p>
+      </div>
+    </a>
+    <a href="#" class="blog-card">
+      <div class="blog-card-thumb">
+        <div class="blog-card-thumb-label">EX</div>
+        <span class="blog-card-tag">Expats</span>
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-card-date">September 2024</div>
+        <h3 class="blog-card-title">The expat financial blind spots that cost people the most</h3>
+        <p class="blog-card-excerpt">After 28 years advising internationally mobile professionals, these are the issues that come up again and again — usually too late.</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section style="background:var(--dark); padding:5rem 4rem;" class="fade-in">
+  <div style="max-width:600px; margin:0 auto; text-align:center;">
+    <p class="section-eyebrow">Stay informed</p>
+    <h2 class="section-title light" style="margin-bottom:1rem;">Get new insights delivered.</h2>
+    <p style="color:rgba(255,255,255,0.5); font-size:16px; margin-bottom:2.5rem; font-weight:300;">No marketing. No noise. Just considered thinking on wealth and financial strategy, when it's ready.</p>
+    <div style="display:flex; gap:0.75rem; max-width:440px; margin:0 auto;">
+      <input type="email" placeholder="Your email address" style="flex:1; background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.12); border-radius:4px; padding:0.85rem 1rem; color:white; font-family:'DM Sans',sans-serif; font-size:15px; outline:none;">
+      <button style="background:var(--vitpi-red); color:white; border:none; padding:0.85rem 1.5rem; border-radius:4px; font-family:'DM Sans',sans-serif; font-size:15px; font-weight:500; cursor:pointer; white-space:nowrap;">Subscribe</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-copy">&copy; 2025 Vitpi. All rights reserved. · vitpi.net</div>
+  <ul class="footer-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="blog.html">Insights</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</footer>
+
+<script src="../js/main.js"></script>
+<script>
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>

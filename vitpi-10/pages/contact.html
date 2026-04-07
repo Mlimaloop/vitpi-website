@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Vitpi</title>
+  <meta name="description" content="Get in touch with Graham Noble at Vitpi. Wealth management consultations for HNW individuals, expats and entrepreneurs. Based in Dubai.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .fade-in.visible { opacity: 1; transform: none; }
+    .contact-wrapper { display: grid; grid-template-columns: 1fr 1fr; min-height: calc(100vh - 70px); }
+    .contact-left { background: var(--dark); padding: 7rem 5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; }
+    .contact-left::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--vitpi-red); }
+    .contact-right { background: var(--warm-white); padding: 7rem 5rem; display: flex; flex-direction: column; justify-content: center; }
+    .contact-bg-text { position: absolute; bottom: -2rem; right: -1rem; font-family: 'Playfair Display', serif; font-size: 12rem; font-weight: 700; color: rgba(255,255,255,0.03); line-height: 1; pointer-events: none; }
+    @media(max-width:900px) { .contact-wrapper { grid-template-columns: 1fr; } .contact-left, .contact-right { padding: 5rem 1.5rem; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">
+    <div class="nav-logo-mark">V</div>
+    <span class="nav-logo-text">Vitpi</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="testimonials.html">Clients</a></li>
+    <li><a href="blog.html">Insights</a></li>
+    <li><a href="contact.html" class="nav-cta">Get in Touch</a></li>
+  </ul>
+  <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="contact-wrapper">
+  <div class="contact-left fade-in">
+    <p class="section-eyebrow">Get in touch</p>
+    <h1 style="font-family:'Playfair Display',serif; font-size:clamp(2.5rem,4vw,3.5rem); color:white; font-weight:700; line-height:1.1; letter-spacing:-1px; margin-bottom:1.5rem;">Let's have an honest conversation.</h1>
+    <p style="color:rgba(255,255,255,0.5); font-size:16px; line-height:1.8; margin-bottom:3.5rem; font-weight:300;">Whether you're starting from scratch, reviewing an existing strategy, or facing a specific decision — the right first step is always a conversation. No commitment, no pressure.</p>
+
+    <div class="contact-detail" style="border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:1.75rem; margin-bottom:1.75rem;">
+      <div style="font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--vitpi-red); font-weight:500; margin-bottom:0.4rem;">Based in</div>
+      <div style="font-size:17px; color:white; font-weight:300;">Dubai, United Arab Emirates</div>
+    </div>
+    <div class="contact-detail" style="border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:1.75rem; margin-bottom:1.75rem;">
+      <div style="font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--vitpi-red); font-weight:500; margin-bottom:0.4rem;">Email</div>
+      <div style="font-size:17px; color:white; font-weight:300;"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8cebfeede4ede1ccfae5f8fce5a2e2e9f8">[email&#160;protected]</a></div>
+    </div>
+    <div class="contact-detail" style="margin-bottom:0;">
+      <div style="font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--vitpi-red); font-weight:500; margin-bottom:0.4rem;">Serving clients in</div>
+      <div style="font-size:17px; color:white; font-weight:300;">UAE · UK · Middle East · Globally</div>
+    </div>
+
+    <div class="contact-bg-text">V</div>
+  </div>
+
+  <div class="contact-right fade-in">
+    <p class="section-eyebrow">Send a message</p>
+    <h2 style="font-family:'Playfair Display',serif; font-size:1.75rem; font-weight:700; color:var(--dark); margin-bottom:0.5rem; letter-spacing:-0.3px;">Tell me about your situation.</h2>
+    <p style="font-size:14px; color:var(--mid); margin-bottom:2.5rem;">I'll respond personally within one business day.</p>
+
+    <form class="contact-form" style="gap:1.25rem;">
+      <div class="form-row" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="form-group">
+          <label for="fname" style="font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid); font-weight:500;">First name</label>
+          <input type="text" id="fname" placeholder="Graham" style="background:white; border:1px solid var(--light-border); border-radius:4px; padding:0.85rem 1rem; color:var(--dark); font-family:'DM Sans',sans-serif; font-size:15px; outline:none; transition:border-color 0.2s;">
+        </div>
+        <div class="form-group">
+          <label for="lname" style="font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid); font-weight:500;">Last name</label>
+          <input type="text" id="lname" placeholder="Noble" style="background:white; border:1px solid var(--light-border); border-radius:4px; padding:0.85rem 1rem; color:var(--dark); font-family:'DM Sans',sans-serif; font-size:15px; outline:none; transition:border-color 0.2s;">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email" style="font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid); font-weight:500;">Email address</label>
+        <input type="email" id="email" placeholder="you@email.com" style="background:white; border:1px solid var(--light-border); border-radius:4px; padding:0.85rem 1rem; color:var(--dark); font-family:'DM Sans',sans-serif; font-size:15px; outline:none; transition:border-color 0.2s;">
+      </div>
+      <div class="form-group">
+        <label for="service" style="font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid); font-weight:500;">I'm interested in</label>
+        <select id="service" style="background:white; border:1px solid var(--light-border); border-radius:4px; padding:0.85rem 1rem; color:var(--dark); font-family:'DM Sans',sans-serif; font-size:15px; outline:none; transition:border-color 0.2s; appearance:none; cursor:pointer;">
+          <option value="">Select a service...</option>
+          <option>Passive Income Creation</option>
+          <option>Wealth Management</option>
+          <option>Pension Transfer &amp; Planning</option>
+          <option>Portfolio Management</option>
+          <option>Not sure — I'd like to discuss</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message" style="font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--mid); font-weight:500;">Tell me about your situation</label>
+        <textarea id="message" placeholder="A brief overview of where you are and what you're looking to achieve..." style="background:white; border:1px solid var(--light-border); border-radius:4px; padding:0.85rem 1rem; color:var(--dark); font-family:'DM Sans',sans-serif; font-size:15px; outline:none; transition:border-color 0.2s; resize:vertical; min-height:130px;"></textarea>
+      </div>
+      <div>
+        <button type="submit" class="form-submit" style="background:var(--vitpi-red); color:white; border:none; padding:1rem 2.5rem; border-radius:4px; font-family:'DM Sans',sans-serif; font-size:15px; font-weight:500; cursor:pointer; transition:background 0.2s; letter-spacing:0.02em;">Send message</button>
+        <p style="font-size:12px; color:var(--mid); margin-top:1rem;">Your information is held in strict confidence and never shared with third parties.</p>
+      </div>
+    </form>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-copy">&copy; 2025 Vitpi. All rights reserved. · vitpi.net</div>
+  <ul class="footer-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="blog.html">Insights</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../js/main.js"></script>
+<script>
+  document.querySelectorAll('input, select, textarea').forEach(el => {
+    el.addEventListener('focus', () => el.style.borderColor = 'var(--vitpi-red)');
+    el.addEventListener('blur', () => el.style.borderColor = 'var(--light-border)');
+  });
+  const form = document.querySelector('.contact-form');
+  const btn = form.querySelector('.form-submit');
+  form.addEventListener('submit', e => {
+    e.prevent
